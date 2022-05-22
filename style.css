@@ -22,6 +22,9 @@ main.container {
   display: block;
   min-width: 50%;
   max-width: 80%;
+  border: 1px dashed #D4FF24;
+  padding: 17px;
+  border-radius: 5px;
 }
 
 main.container h1 {
