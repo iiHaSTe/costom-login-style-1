@@ -70,6 +70,7 @@ main.container > div > span i {
   height: 100%;
 }
 div.opt {
+  text-align: center;
   padding: 0px clamp(14px, 19px, 27px);
   display: flex;
   justify-content: space-between;
@@ -83,6 +84,7 @@ div.opt input[type="button"] {
   color: white;
   transition: 1s;
   outline: none;
+  padding: clamp(6px, 9px, 15px);
 }
 div.opt input[type="button"]:hover {
   transform: scale(1.2, 1.2);
