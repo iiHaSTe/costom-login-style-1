@@ -20,7 +20,7 @@ main.container {
   min-width: 50%;
   max-width: 80%;
   border: 1px dotted #D4FF24;
-  background-color: #1F7EFF;
+  /*background-color: #1F7EFF;*/
   padding: 17px;
   border-radius: 5px;
 }
