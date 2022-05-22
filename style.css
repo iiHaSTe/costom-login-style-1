@@ -12,10 +12,7 @@ body {
   display: grid;
   place-items: center;
   background-color: #14CDFF;
-  background-image: -webkit-linear-gradient(90deg, #123E61, #47167E);
-  background-image: -moz-linear-gradient(90deg, #123E61, #47167E);
-  background-image: -o-linear-gradient(90deg, #123E61, #47167E);
-  background-image: linear-gradient(90deg, #123E61, #47167E);
+  background-image: linear-gradient(60deg, #123E61, #47167E);
 }
 main.container {
   color: white;
@@ -23,6 +20,7 @@ main.container {
   min-width: 50%;
   max-width: 80%;
   border: 1px dotted #D4FF24;
+  background-color: #1F7EFF;
   padding: 17px;
   border-radius: 5px;
 }
