@@ -86,3 +86,9 @@ main.container > div a:hover {
   color: #13C3FF;
   text-decoration: #13C3FF;
 }
+
+@media screen and (min-width: 800px) {
+  main.container > div input {
+    border-width: 3px;
+  }
+}
