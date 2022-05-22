@@ -45,6 +45,7 @@ main.container > div input {
   display: block;
   margin-top: 14px;
   padding: clamp(6px, 9px, 15px);
+  padding-right: clamp(20px, 30px, 40px);
   background-color: #FDFDFD;
   color: black;
   border: 2px solid #D5D5D5;
@@ -52,6 +53,21 @@ main.container > div input {
   font-size: clamp(14px, 16px, 20px);
   width: 100%;
   outline: none;
+}
+main.container > div > span {
+  position: relative;
+  box-sizing: border-box;
+}
+main.container > div > span i {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: grey;
+  padding: clamp(7px, 8px, 16px);
+  height: 100%;
 }
 div.opt {
   padding: 0px clamp(14px, 19px, 27px);

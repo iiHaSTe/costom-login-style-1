@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LOGIN</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     </style>
@@ -16,8 +17,14 @@
       <h1>Hello!</h1>
       <p>Hope you have the best experience</p>
       <div>
-        <input type="text" placeholder="Email" id="email"/>
-        <input type="password" placeholder="Password" id="password"/>
+        <span>
+          <input type="text" placeholder="Email" id="email"/>
+          <i id="email-icon" class="fa fa-at"></i>
+        </span>
+        <span>
+          <input type="password" placeholder="Password" id="password"/>
+          <i id="pass-icon" style="margin-top: 5px;" class="fa fa-lock"></i>
+        </span>
         <div class="opt">
           <input type="button" value="Log in"/>
           <input type="button" value="Sing in"/>
