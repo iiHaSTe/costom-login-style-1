@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: 'Ubuntu', sans-serif;
 }
 body {
   text-align: center;
@@ -20,7 +21,7 @@ main.container {
   color: white;
   display: block;
   min-width: 50%;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 main.container h1 {
